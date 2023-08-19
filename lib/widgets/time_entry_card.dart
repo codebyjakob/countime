@@ -13,6 +13,28 @@ class TimeEntryCard extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Dismissible(
       key: Key(timeEntry.id),
+      confirmDismiss: (_) async {
+        return await showDialog<bool>(
+          context: context,
+          builder: (context) {
+            return AlertDialog(
+              title: const Text("Delete time entry"),
+              content: const Text(
+                  "This will permanently delete the time entry. Are you sure?"),
+              actions: <Widget>[
+                TextButton(
+                  onPressed: () => Navigator.of(context).pop(false),
+                  child: const Text("Cancel"),
+                ),
+                TextButton(
+                  onPressed: () => Navigator.of(context).pop(true),
+                  child: const Text("Delete"),
+                ),
+              ],
+            );
+          },
+        );
+      },
       onDismissed: (_) {
         ref.read(timeEntriesProvider.notifier).deleteTimeEntry(timeEntry);
       },
@@ -29,8 +51,7 @@ class TimeEntryCard extends ConsumerWidget {
                 readOnly: true,
                 controller: TextEditingController(
                     text:
-                        "${timeEntry.startTime.hour}:${timeEntry.startTime.minute.toString().padLeft(2, "0")}"
-                        ),
+                        "${timeEntry.startTime.hour}:${timeEntry.startTime.minute.toString().padLeft(2, "0")}"),
                 // open date picker on tap
                 onTap: () {
                   showTimePicker(
