@@ -1,6 +1,6 @@
 # CounTime
 
-Simple but useful time tracking app, fully open source.
+Simple and useful time tracking app, fully open source.
 
 ## Features
 
