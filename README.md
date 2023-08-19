@@ -1,16 +1,18 @@
 # time_tracker
 
-A new Flutter project.
+Simple but useful time tracking app, fully open source.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+### Current Features
 
-A few resources to get you started if this is your first Flutter project:
+- [x] Organize time entries by date
+- [x] Add, edit, and delete time entries
+- [x] Get the total time tracked for each day
+- [x] Cross platform
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Planned Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [ ] Export time entries as CSV (more formats planned)
+- [ ] Organize time entries by categories
+- [ ] More advanced analytics (based on categories, average time per day, etc.)
