@@ -1,4 +1,4 @@
-# time_tracker
+# CounTime
 
 Simple but useful time tracking app, fully open source.
 

@@ -22,7 +22,7 @@ class TimeTrackerApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Time Tracker",
+      title: "CounTime",
       theme: ThemeData(
         useMaterial3: true,
         brightness: Brightness.dark,
@@ -30,7 +30,7 @@ class TimeTrackerApp extends StatelessWidget {
           ThemeData.dark().textTheme,
         ),
       ),
-      home: const HomePage(title: "Time Tracker"),
+      home: const HomePage(title: "CounTime - Time Tracker"),
     );
   }
 }

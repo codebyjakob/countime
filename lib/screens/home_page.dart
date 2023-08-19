@@ -20,7 +20,7 @@ class HomePage extends ConsumerWidget {
         return AlertDialog(
           title: const Text("About"),
           content: const Text(
-              "This is a basic and experimental time tracking app. Thank you for trying it out!"),
+              "CounTime is a basic and experimental time tracking app. Thank you for trying it out!"),
           actions: <Widget>[
             TextButton(
               onPressed: () {
