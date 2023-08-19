@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.jta" "\0"
-            VALUE "FileDescription", "time_tracker" "\0"
+            VALUE "FileDescription", "CounTime" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "time_tracker" "\0"
+            VALUE "InternalName", "CounTime" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.jta. All rights reserved." "\0"
             VALUE "OriginalFilename", "time_tracker.exe" "\0"
-            VALUE "ProductName", "time_tracker" "\0"
+            VALUE "ProductName", "CounTime" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
