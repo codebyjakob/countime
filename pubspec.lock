@@ -623,10 +623,10 @@ packages:
     dependency: "direct dev"
     description:
       name: riverpod_lint
-      sha256: e6391d45dcecb62c753df2211a33dbbd83a16e1d56934221d4bc4f97076b2b87
+      sha256: fa33206008e042669537bfdc2edba75672c19cead9f4871b9218e1f3813393e0
       url: "https://pub.dev"
     source: hosted
-    version: "2.3.1"
+    version: "2.3.2"
   rxdart:
     dependency: transitive
     description:
