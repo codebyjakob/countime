@@ -615,10 +615,10 @@ packages:
     dependency: "direct dev"
     description:
       name: riverpod_generator
-      sha256: "2dd909bbc58e8059f71ebf1e8f2a7d6d898e542ded8d5a0ace81e3d98bfeea41"
+      sha256: "49e36ca4c7e78f97ae6a2ab3b43c53fd688429482c253b5c3bf5670d2dec6c87"
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.0-dev.5"
+    version: "3.0.0-dev.6"
   riverpod_lint:
     dependency: "direct dev"
     description:
