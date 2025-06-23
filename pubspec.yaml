@@ -35,7 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   sqflite_common_ffi: ^2.3.6
   cupertino_icons: ^1.0.8
-  flutter_riverpod: ^3.0.0-dev.15
+  flutter_riverpod: ^3.0.0-dev.16
   riverpod_annotation: ^3.0.0-dev.15
   google_fonts: ^6.2.1
   freezed_annotation: ^3.0.0
