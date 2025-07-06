@@ -36,7 +36,7 @@ dependencies:
   sqflite_common_ffi: ^2.3.6
   cupertino_icons: ^1.0.8
   flutter_riverpod: ^3.0.0-dev.15
-  riverpod_annotation: ^3.0.0-dev.15
+  riverpod_annotation: ^3.0.0-dev.16
   google_fonts: ^6.2.1
   freezed_annotation: ^3.0.0
   json_annotation: ^4.8.1
